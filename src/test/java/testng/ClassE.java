@@ -70,7 +70,7 @@ WebDriver driver;
 		driver.findElement(By.xpath("//input[@name= 'dwfrm_profile_customer_birthdate']")).sendKeys("24/08/1992");
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id=\"RegistrationForm\"]/fieldset/div[12]/div/label")).click();
-		driver.findElement(By.c("form-row form-row-button js-sticky-block")).click();
+		driver.findElement(By.xpath("form-row form-row-button js-sticky-block")).click();
 		
 	}
 	
