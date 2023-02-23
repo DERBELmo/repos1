@@ -71,7 +71,8 @@ WebDriver driver;
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id=\"RegistrationForm\"]/fieldset/div[12]/div/label")).click();
 		driver.findElement(By.xpath("form-row form-row-button js-sticky-block")).click();
-		
+		driver.findElement(By.xpath("form-row form-row-button js-sticky-block")).click();
+			
 	}
 	
 		@Test
