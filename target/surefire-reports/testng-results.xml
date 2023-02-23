@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-14T17:02:08 CET" name="Surefire suite" finished-at="2023-02-14T17:02:30 CET" duration-ms="22051">
+    <groups>
+    </groups>
+    <test started-at="2023-02-14T17:02:08 CET" name="Surefire test" finished-at="2023-02-14T17:02:30 CET" duration-ms="22051">
+      <class name="testng.NewTest">
+        <test-method is-config="true" signature="Openweb()[pri:0, instance:testng.NewTest@7bab3f1a]" started-at="2023-02-14T17:02:08 CET" name="Openweb" finished-at="2023-02-14T17:02:29 CET" duration-ms="20569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openweb -->
+        <test-method signature="login()[pri:0, instance:testng.NewTest@7bab3f1a]" started-at="2023-02-14T17:02:29 CET" name="login" finished-at="2023-02-14T17:02:30 CET" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.NewTest@7bab3f1a]" started-at="2023-02-14T17:02:30 CET" name="closeapp" finished-at="2023-02-14T17:02:30 CET" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testng.NewTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

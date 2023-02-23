@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testng.sephora">
+        <methods>
+          <include name="co"/>
+          <include name="opensephora"/>
+          <include name="achat"/>
+        </methods>
+      </class> <!-- testng.sephora -->
+      <class name="testng.RDV">
+        <methods>
+          <include name="opensephora"/>
+          <include name="Rendezvous"/>
+        </methods>
+      </class> <!-- testng.RDV -->
+      <class name="testng.ASSNG">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closeapp"/>
+          <include name="logo"/>
+        </methods>
+      </class> <!-- testng.ASSNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
